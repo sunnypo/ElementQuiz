@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
-    let elementList = ["Carbon", "Gold", "Clorine", "Sodium"]
+    let elementList = ["Carbon", "Gold", "Chlorine", "Sodium"]
     var currentElementIndex = 0
     func updateElement() {
         answerLabel.text = "?"
